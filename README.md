@@ -27,7 +27,7 @@ Startup, under development, will log any message received from ws
 
 ```
 API_KEY=YOUR_KEY DELAY=5000 
- `npm run start:dev` 
+ **npm run start:dev**
 2020-06-20 00:04:39.125 Connect to wss://testnet.binance.vision/ws/HuV4NHGxEUnHPnV3JR3g60rJMfltavweesGiYjHaWi2OOKinHHrcZfcnVi2p
 2020-06-20 00:04:39.127 Wait for message...
 2020-06-20 00:04:52.079 executionReport:TRADE delayed {
@@ -53,7 +53,7 @@ Startup, under production only log event detail when it excess `DELAY` time
 
 ```
 API_KEY=YOUR_KEY DELAY=5000 
-`npm run start:prod`
+**npm run start:prod**
 6/19/2020, 3:08:14 PM Connect to wss://stream.binance.com:9443/ws/HuV4NHGxEUnHPnV3JR3g60rJMfltavweesGiYjHaWi2OOKinHHrcZfcnVi2p
 2020-06-20 00:04:39.127 Wait for message...
 2020-06-20 00:04:52.079 executionReport:TRADE delayed {
