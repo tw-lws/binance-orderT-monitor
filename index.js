@@ -13,7 +13,7 @@ const WS_HOST = isProd
   : "wss://testnet.binance.vision";
 
  // replace your apikey here
-const API_KEY = 'ZRgt17LnbOw5AIHEVDJiIDMuOGM63GAtKoWMAc14eL8CZkAZfaFmkCAOcPqHd53s';
+const API_KEY = '';
 const DELAY_TIME = process.env.DELAY || 5000; // Default will be 5000ms
 if (!API_KEY) {
   throw new Error("Please input a API_KEY");

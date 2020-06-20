@@ -8,14 +8,14 @@ if (process.env.NODE_ENV !== "development") {
 }
 const HOST = "https://testnet.binance.vision";
 //replace your api key here
-const API_KEY = 'ZRgt17LnbOw5AIHEVDJiIDMuOGM63GAtKoWMAc14eL8CZkAZfaFmkCAOcPqHd53s';
+const API_KEY = '';
 //
 
 if (!API_KEY) {
     throw new Error("Please input a API_KEY");
 }
 //replace your api secret here
-const SECRET = 'Jk9nTBx7S7SvYe3Ts2snPb93jOQhkbVDVTfuR93JVMX0KXwfRsMyHdLAI7F0nJAe';
+const SECRET = '';
 if (!SECRET) {
     throw new Error("Please input a SECRET");
 }
