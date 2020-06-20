@@ -1,0 +1,15 @@
+{
+  "name": "binance-ws",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "NODE_ENV=development node index.js",
+    "start:prod": "NODE_ENV=production node index.js",
+    "test-order": "NODE_ENV=development node create-test-order.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "ws": "^7.3.0"
+  }
+}
